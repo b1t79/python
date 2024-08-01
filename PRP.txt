@@ -1,0 +1,16 @@
+
+About us
+
+We are an online render farm TurboRender. 
+We have 800 powerful servers with installed and configured software. Using our software, you can speed up the rendering process by 50 times and get the finished result faster.
+ 
+Since 2013, we have been helping our customers save time.
+
+Our contacts:
+E-mail: support@turborender.com
+Telegram: @TurborenderBot
+Skype: Support TurboRender
+
+
+he OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.
+

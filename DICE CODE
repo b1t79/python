@@ -1,0 +1,11 @@
+import random
+while True:
+    print("="*20)
+    print("**** ROLL THE DICE ****")
+    print("="*20)
+    num=random.randint(1, 6)
+    print(num)
+    ch=input("Roll Again ? (Y/N)")
+    if ch in 'Nn':
+        break
+    print("Thanks for playing !!!!")

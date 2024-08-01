@@ -1,0 +1,23 @@
+Azimuthal quantum number tells about the :
+
+(1) Number of sub shells present in the main shells.
+
+(2) The angular momentum of the electron present in any sub shell.
+
+(3) The relative energies of the various sub shells.
+
+(4) The shapes of the various sub shells present within the same principal Shell.
+
+For a given value of n, it can have any integral value ranging from 0 to n-1.
+
+For 1st Shell (K), n=1,  l can have only one value i.e., l=0
+
+For the 2nd Shell (L), n=2, l can have two values  i.e. l=0 and 1
+
+For the 3rd Shell ( M), n= 3, l can have three values i.e. l=0, 1, 2
+
+For the 4th shells ( N ), n=4, l can have 4 values i.e. l=0, 1, 2, 3
+
+Depending upon the values of l, i.e. l = 0, 1, 2 and 3,the different sub shells  
+are designated as s,p,d and f .These notations are the initial letters of the words, sharp, principal, diffused
+ and fundamental formerly used to describe different spectral lines.

@@ -1,0 +1,36 @@
+import mysql.connector as sq1
+
+mydb=sq1.connect(host='localhost', user='root', password='t15ha')
+cur=mydb.cursor()
+cur.execute('Create database fast;')
+print("Database created!")
+
+# Create table student
+query = "insert into students(Rollno, Name, Marks, grade, section, project) values(%s, %s, %s, %s, %s, %s)" % (Rollno, Name, Marks, grade, section, project)
+cur.execute(query)
+# Enter values in table student
+for i in range(1):
+    Rollno=int(input("Enter Student Rollno.: "))
+    Name=input("Enter Student Name:")
+    Marks=int(input("Enter Student Marks: "))
+    grade=input("Enter student grade: ")
+    section=input("enter student section: ")
+    project=input("Project Submitted?:")
+    query = ('insert into students(Rollno, Name, Marks, grade, section, project) values({},"{}",{},{},"{}","{}")'.format(Rollno, Name, Marks, grade, section, project))
+    cur.execute(query)
+    print("‘STUDENT RECORD ADDED!")
+
+cur.autocommit=True
+
+# retrieve data from the database
+conn=sq1.connect(host="localhost", user="learner", password="fastwe", database="test")
+if conn.is_connected():
+    print("Successfully connected! ")
+c1=conn.cursor()
+c1.execute("select * from students")
+data=c1.fetchmany(3)
+count=c1.rowcount
+print("Total number of rows",count)
+for row in data:
+    print(row)
+conn.close()
